@@ -1,0 +1,46 @@
+.navButton{
+	/*testing placement*/
+	width: 25%;
+	height: 80px;
+	background-color: 	red;
+	border: 1px	black solid;
+
+}
+
+.mainBody{
+	background-color: 	green;
+	height: 	600px;
+
+}
+
+.buttHolder{
+	height:50%;
+	background-color: rgba(255, 0, 0, 0.3);
+}
+
+.getStart{
+	top: 0 auto;
+	
+}
+
+.inputs{
+	height: 100%;
+	background-color: rgba(255,255, 0, 0.3);
+}
+
+.textText{
+	height: 50%;
+	background-color: rgba(255, 0, 255, 0.3);
+}
+
+.spacer{
+	width: 75%;
+	height: 80px;
+	background-color: 	red;
+}
+
+.trademark{
+	width: 	25%;
+	height: 80px;
+	background-color: 	blue;
+}
