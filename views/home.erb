@@ -7,7 +7,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Amita|Cinzel|Michroma|" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/home.css">
 
-	
+
 	</head>
 <body class="container-fluid">
 		<div class="row">
@@ -16,22 +16,25 @@
 
 				<div class="bodyItem inputs col-md-6">
 				<div id="stuff">
-				<div id="names">
-					<h1><strong>Sign Up Today</strong></h1>
-					<input type="text" name="firstName" placeholder="First Name">
-					<input type="text" name="lastName" placeholder="Last Name">
-				</div>
-				<div id='info'>
-				
-				<input type="text" name="email" placeholder="Email">
-				</div>
-				<div id="message">
-				<h10><strong>Tell us which packack you would would like, your age and your availibilty in a short message</strong></h10>
-				<input id="letUsKnow" placeholder="Message here">
-				<br>
-				<button class="btn btn-primary btn-lg" id='submit'>Submit</button>
-				</div>
-				</div>
+					<form method="POST" action="/home">	
+						<div id="names">
+							<h1><strong>Sign Up Today</strong></h1>
+							<input type="text" name="firstName" placeholder="First Name">
+							<input type="text" name="lastName" placeholder="Last Name">
+						</div>
+						<div id='info'>
+					
+							<input type="text" name="email" placeholder="Email">
+						</div>
+						<div id="message">
+									<h10><strong>Tell us which packack you would would like, your age and your availibilty in a short message</strong></h10>
+									<input id="letUsKnow" placeholder="Message here">
+									<br>
+									<button class="btn btn-primary btn-lg" id='submit' type="submit">Submit</button>
+
+						</div>
+					</form>
+				  </div>
 				</div>
 
 			</div>

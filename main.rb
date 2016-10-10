@@ -1,4 +1,6 @@
 require 'sinatra'
+require 'sendgrid-ruby'
+
 get '/home' do
     erb :home   
 end
@@ -10,4 +12,9 @@ get '/team' do
 end
 get '/test' do
     erb :test
+end
+
+post '/home' do
+	
+
 end
