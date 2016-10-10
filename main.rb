@@ -1,5 +1,5 @@
 require 'sinatra'
-get '/' do
+get '/home' do
     erb :home   
 end
 get '/package' do 
