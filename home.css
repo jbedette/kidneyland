@@ -26,11 +26,18 @@ body { background-image: url(img/happy.jpg);
 .buttHolder{
 	background-color: grey;
 	height:50%;
+<<<<<<< HEAD
+=======
+	background-color: rgba(255, 0, 0, 0.3);
+>>>>>>> 4d7b435b1cfb2630fb5bd66279d1ecd1c190e84f
 	
 }
 
 .getStart{
-	top: 0 auto;
+
+	margin-top: 150px;
+	margin-left: 150px;
+
 	
 }
 
@@ -39,10 +46,14 @@ body { background-image: url(img/happy.jpg);
 	
 }
 
+<<<<<<< HEAD
 .textText{
 	height: 50%;
 	
 }
+=======
+
+>>>>>>> 4d7b435b1cfb2630fb5bd66279d1ecd1c190e84f
 
 .spacer{
 	width: 75%;
@@ -54,6 +65,7 @@ body { background-image: url(img/happy.jpg);
 .trademark{
 	width: 	25%;
 	height: 80px;
+<<<<<<< HEAD
 	background-color: white;
 	
 }
@@ -61,4 +73,12 @@ img {
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+=======
+	background-color: 	blue;
+}
+
+#quote{
+	margin-left: 30px;
+	margin-top: 30px;
+>>>>>>> 4d7b435b1cfb2630fb5bd66279d1ecd1c190e84f
 }
