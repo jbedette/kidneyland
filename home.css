@@ -1,3 +1,10 @@
+body { background-image: url(img/happy.jpg);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+   background-position: center;
+   background-size: auto 100%;
+ }
+
 .navButton{
 	/*testing placement*/
 	width: 25%;
@@ -8,14 +15,18 @@
 }
 
 .mainBody{
-	background-color: 	green;
+/*	background-image: url(img/happy.jpg);
+	background-repeat: repeat-x;*/
+	/*background-image: url(img/happy.jpg);*/
 	height: 	600px;
+	background-color: blue;
 
 }
 
 .buttHolder{
+	background-color: grey;
 	height:50%;
-	background-color: rgba(255, 0, 0, 0.3);
+	
 }
 
 .getStart{
@@ -25,22 +36,29 @@
 
 .inputs{
 	height: 100%;
-	background-color: rgba(255,255, 0, 0.3);
+	
 }
 
 .textText{
 	height: 50%;
-	background-color: rgba(255, 0, 255, 0.3);
+	
 }
 
 .spacer{
 	width: 75%;
 	height: 80px;
-	background-color: 	red;
+	background-color: blue;
+	
 }
 
 .trademark{
 	width: 	25%;
 	height: 80px;
-	background-color: 	blue;
+	background-color: white;
+	
+}
+img {
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
