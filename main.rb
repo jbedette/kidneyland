@@ -2,7 +2,8 @@ require 'sinatra'
 require 'sendgrid-ruby'
 
 get '/home' do
-    erb :home   
+	erb :home   
+
 end
 get '/package' do 
     erb :package
@@ -15,7 +16,6 @@ get '/test' do
 end
 
 post '/home' do
-	puts "Take me home!"
 		# to do: check email address valilidity
 
 	  # From Address & To Address -> SendGrid::Email
@@ -24,7 +24,7 @@ post '/home' do
 	  # Actual Email -> SendGrid::Mail
 	  #  Mail( from, subject, to, content )
 	  mail = SendGrid::Mail.new( 
-	    SendGrid::Email.new(email: "jbedette@yahoo.com"),
+	    SendGrid::Email.new(email: "kplaza1987@gmail.com"),
 	    "Thanks for contacting Luxury Kidney!",
 	    SendGrid::Email.new(email: params[:email] ),
 	    SendGrid::Content.new(type: 'text/plain', value: <<-EMAILCONTENTS
@@ -43,7 +43,7 @@ post '/home' do
 	  puts response.body
 	  puts response.headers
 
-	  @title = "Contact XYZ"
+	  @title = "Contact Luxury Kidney"
 	  @msg = "Thanks for your submission"
 	  erb :home
 
