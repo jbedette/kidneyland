@@ -1,18 +1,29 @@
-body { background-image: url(img/happy.jpg);
+/*body { background-image: url(../img/happy.jpg);
     background-repeat: no-repeat;
   background-attachment: fixed;
    background-position: center;
    background-size: auto 100%;
    color: black;
- }
-
+}*/
+#bg_img {
+   opacity: .7;
+   transition: opacity 2.5s; 
+   width: 100%;
+   position: fixed;
+   height: 100%;
+   /*top:8%;*/
+   z-index: -1;
+}
 
 header {
 	background-color: black;
 	font-family: 'Michroma', sans-serif;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
 }
 .main {
-	background-color: #B0C4DE;
+	
 	font-family: 'Cinzel', serif;
 	color: navy;
 
@@ -25,7 +36,7 @@ header {
 }
 
 
-img {
+/*img {
 	
 	padding-left: 2px;
 	padding-right: 2px;
@@ -34,7 +45,7 @@ img {
 	width: 400px;
 	border-radius: 5px;
 	filter: opacity=50;
-}
+}*/
 
 .mainBody{
 /*	background-image: url(img/happy.jpg);
@@ -125,12 +136,13 @@ img {
 	margin: 10px;
 }
 
-#letUsKnow{
+#message{
 	margin: 10px;
 	height: 80px;
 	width: 80%;
 }
 
-#message{
+#messageBlock{
 	margin:10px;
 }
+
