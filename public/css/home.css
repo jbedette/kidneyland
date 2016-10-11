@@ -1,0 +1,136 @@
+body { background-image: url(../img/happy.jpg);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+   background-position: center;
+   background-size: auto 100%;
+   color: black;
+}
+
+
+header {
+	background-color: black;
+	font-family: 'Michroma', sans-serif;
+}
+.main {
+	background-color: #B0C4DE;
+	font-family: 'Cinzel', serif;
+	color: navy;
+
+}
+
+.footer{
+
+	font-family: 'Michroma', sans-serif;
+	color: navy;
+}
+
+
+img {
+	
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	height: 200px;
+	width: 400px;
+	border-radius: 5px;
+	filter: opacity=50;
+}
+
+.mainBody{
+/*	background-image: url(img/happy.jpg);
+	background-repeat: repeat-x;*/
+	/*background-image: url(img/happy.jpg);*/
+	height: 	600px;
+
+
+}
+
+.buttHolder{
+	/*background-color: grey;*/
+	height:50%;
+
+	/*background-color: rgba(255, 0, 0, 0.3);*/
+
+	
+}
+
+.getStart{
+
+	margin-top: 100px;
+	margin-left: 150px;
+	background.color: rgb(100, 100, 200);
+
+}
+
+.inputs{
+	height: 100%;
+	text-align: left;
+	padding-top: 200px;
+	padding-left: 200px;
+
+
+
+	
+}
+#stuff{
+	border: 10px black solid;
+	background-color: rgba(180,180,200,0.6);
+	border-radius: 10px;
+
+}
+
+.textText{
+	height: 50%;
+	
+}
+
+.spacer{
+	width: 75%;
+	height: 80px;
+	background-color: black;
+	margin-top: 40px
+}
+
+.trademark{
+	width: 	25%;
+	height: 80px;
+	background-color: black;
+	color: rgb(100, 100, 200);
+	padding-top: 30px;
+	margin-top: 40px
+}
+img {
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+	background-color: 	blue;
+}
+
+#quote{
+	margin-left: 30px;
+	margin-top: 150px;
+}
+
+#names{
+	padding: 10px;
+}
+
+
+#info{
+	padding: 10px;
+}
+
+#submit{
+	margin: 10px;
+}
+
+#message{
+	margin: 10px;
+	height: 80px;
+	width: 80%;
+}
+
+#messageBlock{
+	margin:10px;
+}

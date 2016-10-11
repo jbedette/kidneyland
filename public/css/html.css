@@ -1,0 +1,27 @@
+
+.main {
+	background-color: #B0C4DE;
+	color: navy; 
+	font-family: 'Cinzel', serif;
+}
+body {
+	text-align: center;
+}
+header {
+	background-color: black;
+	font-family: 'Michroma', sans-serif;
+}
+img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+iframe {
+	padding: 5px;
+	padding-left: 10px
+}
+h1 {
+	font-size: 20px;
+	text-shadow: 1px 1px;
+}

@@ -1,0 +1,28 @@
+body {
+	text-align: center;
+}
+.main {
+	background-color: #B0C4DE;
+	background-image: url(img/happy6.jpg);
+	color: navy; 
+	font-family: 'Roboto', serif;
+}
+
+
+.hov:hover {
+    height:200px;
+    width: 250px;
+}
+
+
+img.hov {
+	height: 150px;
+	width: 200px;
+	border-radius: 50%;
+   
+}
+h1 {
+	font-size: 20px;
+	text-shadow: 1px 1px;
+	
+}
